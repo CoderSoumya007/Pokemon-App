@@ -1,4 +1,4 @@
-Pokémon App
+#Pokémon App
 A simple and interactive Pokémon application that allows users to explore a list of Pokémon, search for specific ones, and view details in a visually appealing way.
 
 Features
