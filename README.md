@@ -4,7 +4,6 @@ A simple and interactive Pokémon application that allows users to explore a lis
 
 ![Screenshot 2024-10-11 211053](https://github.com/user-attachments/assets/62650efe-c8b0-4a76-a696-7f3b6613d513)
 
-![Screenshot 2024-10-11 211355](https://github.com/user-attachments/assets/a1f7bc35-6e52-488f-8ab4-336073a10d4e)
 ---
 
 ## Features
@@ -14,6 +13,8 @@ A simple and interactive Pokémon application that allows users to explore a lis
 - Error Handling: Displays error messages if the Pokémon data cannot be fetched.
 - Loading Indicator: Shows a loading message while new Pokémon data is being fetched.
 - Responsive Design: Optimized for different screen sizes with a mobile-friendly interface.
+
+![Screenshot 2024-10-11 211355](https://github.com/user-attachments/assets/a1f7bc35-6e52-488f-8ab4-336073a10d4e)
 
 #### Technical Features:
 - **React:** The application is built using React for a smooth and responsive user experience.
