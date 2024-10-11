@@ -2,7 +2,7 @@ PokeDex
 ============
 A simple and interactive Pokémon application that allows users to explore a list of Pokémon, search for specific ones, and view details in a visually appealing way.
 
-![Screenshot 2024-10-11 211053](https://github.com/user-attachments/assets/62650efe-c8b0-4a76-a696-7f3b6613d513)
+![Screenshot 2024-10-11 222834](https://github.com/user-attachments/assets/369bb2e5-95a5-46a9-a376-fe13d4fefc97)
 
 ---
 
@@ -14,7 +14,7 @@ A simple and interactive Pokémon application that allows users to explore a lis
 - Loading Indicator: Shows a loading message while new Pokémon data is being fetched.
 - Responsive Design: Optimized for different screen sizes with a mobile-friendly interface.
 
-![Screenshot 2024-10-11 211355](https://github.com/user-attachments/assets/a1f7bc35-6e52-488f-8ab4-336073a10d4e)
+![Screenshot 2024-10-11 222855](https://github.com/user-attachments/assets/6b890625-dd6b-4ccd-9f92-58d87f5b2f1a)
 
 #### Technical Features:
 - **React:** The application is built using React for a smooth and responsive user experience.
