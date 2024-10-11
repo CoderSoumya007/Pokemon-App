@@ -21,7 +21,8 @@ function App() {
         throw new Error(`HTTP error! status: ${response.status}`);
       }
       const data = await response.json();
-
+      console.log(data);
+      
       // Avoid duplicates by checking if the new Pokémon are already in the state
       setPokemons(prevPokemons => {
         const newPokemons = data.results.filter(
@@ -63,8 +64,10 @@ function App() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-blue-100 to-blue-200 p-8">
-      <h1 className="text-4xl font-bold text-center mb-8 text-blue-800">Pokédex</h1>
+    <div className="min-h-screen bg-gradient-to-b from-blue-100 to-blue-200 p-8"
+    style={{ backgroundImage: 'url(https://images.squarespace-cdn.com/content/v1/613ef8a0a3de987d28d14431/1662051124297-VAO30XSO47Z7HPVSYSEV/Pokemon_SV_Worldmap.jpg)' }}>
+      <h1 className="text-7xl font-bold text-center mb-8 text-purple  -800">Pokédex</h1>
+
       <div className="max-w-md mx-auto mb-8 relative">
         <input
           type="text"
@@ -75,6 +78,8 @@ function App() {
         />
         <SearchIcon className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" />
       </div>
+
+      <div className="overflow-y-auto h-[65vh] px-4">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {filteredPokemons.map((pokemon, index) => (
           <div
@@ -87,6 +92,7 @@ function App() {
       </div>
       {loading && <p className="text-center text-xl text-blue-800 mt-4">Loading more Pokémon...</p>}
       {!hasMore && <p className="text-center text-xl text-blue-800 mt-4">No more Pokémon to load</p>}
+    </div>
     </div>
   );
 }

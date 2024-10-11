@@ -12,7 +12,6 @@ function PokemonCard({ pokemon }) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
         const data = await response.json();
-        console.log('Fetched Pokemon details:', data); // Debugging line
         setDetails(data);
       } catch (error) {
         console.error('Error fetching Pokemon details:', error);
@@ -25,7 +24,7 @@ function PokemonCard({ pokemon }) {
 
   if (error) {
     return (
-      <div className="bg-white rounded-lg shadow-md p-4 h-64 flex items-center justify-center">
+      <div className="bg-white rounded-lg shadow-lg p-4 h-64 flex items-center justify-center">
         <p className="text-red-600">Error: {error}</p>
       </div>
     );
@@ -33,28 +32,28 @@ function PokemonCard({ pokemon }) {
 
   if (!details) {
     return (
-      <div className="bg-white rounded-lg shadow-md p-4 h-64 flex items-center justify-center">
-        <p>Loading...</p>
+      <div className="bg-white rounded-lg shadow-lg p-4 h-64 flex items-center justify-center">
+        <p className="text-gray-600 animate-pulse">Loading...</p>
       </div>
     );
   }
 
   return (
-    <div className="bg-white rounded-lg shadow-md overflow-hidden transition-transform hover:scale-105">
-      <div className="p-4 bg-gradient-to-r from-blue-500 to-purple-500">
-        <h2 className="text-xl font-bold text-white capitalize">{details.name}</h2>
+    <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-transform transform hover:scale-105 duration-300">
+      <div className="p-4 bg-gradient-to-r from-blue-500 to-purple-500 text-center">
+        <h2 className="text-2xl font-bold text-white capitalize shadow-md  font-serif">{details.name}</h2>
       </div>
       <div className="p-4 flex flex-col items-center">
         <img
           src={details.sprites.front_default}
           alt={details.name}
-          className="w-32 h-32 object-contain mb-4"
+          className="w-32 h-32 object-contain mb-4 transition-transform duration-300 hover:scale-110"
         />
         <div className="flex gap-2">
           {details.types.map((type) => (
             <span
               key={type.type.name}
-              className="px-2 py-1 text-xs font-semibold rounded-full bg-blue-100 text-blue-800"
+              className="px-3 py-1 text-xs font-semibold rounded-full bg-blue-100 text-blue-800 shadow-md"
             >
               {type.type.name}
             </span>
