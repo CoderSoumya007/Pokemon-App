@@ -2,8 +2,7 @@ PokeDex
 ============
 A simple and interactive Pokémon application that allows users to explore a list of Pokémon, search for specific ones, and view details in a visually appealing way.
 
-![Chat Preview](![image](https://github.com/user-attachments/assets/2755ce61-6818-4efb-94e3-ff5e58199573)
-)
+![Screenshot 2024-10-11 211053](https://github.com/user-attachments/assets/62650efe-c8b0-4a76-a696-7f3b6613d513)
 
 ---
 
