@@ -25,18 +25,18 @@ A simple and interactive Pokémon application that allows users to explore a lis
 ---
 
 ## Setup
-1.Clone the repository:git clone https://github.com/yourusername/pokemon-app.git
-2.Navigate into the project directory:cd front-end
-3.Install the dependencies:npm install
-4.Start the development server:npm run dev
+1. Clone the repository:git clone https://github.com/yourusername/pokemon-app.git  
+2. Navigate into the project directory:cd front-end  
+3. Install the dependencies:npm install  
+4. Start the development server:npm run dev  
 
 ---
 
 ## Usage
-1.Upon loading the app, you will see a list of Pokémon.
-2.Use the search bar to filter Pokémon by name.
-3.Scroll down to load more Pokémon automatically.
-4.Enjoy exploring the Pokémon universe!
+1. Upon loading the app, you will see a list of Pokémon.  
+2. Use the search bar to filter Pokémon by name.  
+3. Scroll down to load more Pokémon automatically.  
+4. Enjoy exploring the Pokémon universe!  
 ---
 
 Contributing
