@@ -1,6 +1,9 @@
-PokeDex
+PokeDex 
 ============
 A simple and interactive Pokémon application that allows users to explore a list of Pokémon, search for specific ones, and view details in a visually appealing way.
+
+View it live here
+👉 https://pokemon-app-three-lime.vercel.app/
 
 ![Screenshot 2024-10-11 222834](https://github.com/user-attachments/assets/369bb2e5-95a5-46a9-a376-fe13d4fefc97)
 
